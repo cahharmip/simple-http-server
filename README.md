@@ -1,2 +1,2 @@
-# simple-http-server
-simple http server using ruby
+# simple-http-server-for-buzzde
+simple http server using node.js
