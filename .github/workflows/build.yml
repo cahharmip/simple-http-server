@@ -38,4 +38,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: executables
-          path: simple-http-server-for-buzzde # Adjust this if your executable file has a different name
+          path: path: ${{ runner.os == 'Windows' && 'simple-http-server-for-buzzde.exe' || 'simple-http-server-for-buzzde' }} # Adjust this if your executable file has a different name
