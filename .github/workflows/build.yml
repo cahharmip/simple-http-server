@@ -13,6 +13,9 @@ jobs:
         os: [macos-latest, windows-latest]
 
     steps:
+      - name: Clear npm cache
+        run: npm cache clean --force
+
       - name: Checkout code
         uses: actions/checkout@v2
 
