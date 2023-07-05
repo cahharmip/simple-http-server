@@ -1,0 +1,20 @@
+{
+  "name": "simple-http-server",
+  "version": "1.0.0",
+  "description": "simple http server using ruby",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --output index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "bin": "./index.js"
+}
